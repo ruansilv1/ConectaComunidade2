@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Comunidade</title>
+    <link rel="stylesheet" href="style.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="container">
+      <h1>Conecta Comunidade</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h2>Transformando Comunidades com Tecnologia</h2>
+      <p>Projetos digitais feitos por estudantes para mudar realidades locais.</p>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre o Projeto</h2>
+      <p class="descricao">
+        O <strong>Conecta Comunidade</strong> é um projeto que une estudantes universitários, professores e a comunidade para levar soluções tecnológicas acessíveis a ONGs, escolas e associações.
+      </p>
+
+      <div class="missao">
+        <div class="item">
+          <h3>Missão</h3>
+          <p>Levar tecnologia de forma acessível e promover impacto social positivo.</p>
+        </div>
+        <div class="item">
+          <h3>Visão</h3>
+          <p>Ser referência em transformação social através da tecnologia colaborativa.</p>
+        </div>
+        <div class="item">
+          <h3>Valores</h3>
+          <p>Empatia, inclusão, colaboração, inovação e responsabilidade social.</p>
+        </div>
+      </div>
+
+      <div class="como-funciona">
+        <h3>Como Funciona?</h3>
+        <ul>
+          <li>Escutamos as necessidades das organizações.</li>
+          <li>Planejamos juntos as melhores soluções.</li>
+          <li>Desenvolvemos sites, automações e treinamentos.</li>
+          <li>Oferecemos suporte e capacitação.</li>
+        </ul>
+      </div>
+
+      <div class="galeria">
+        <img src="img/equipe desenvolvendo projeto.jpeg" alt="Equipe desenvolvendo projetos" />
+        <img src="img/Oficina de tecnologia com a comunidade.jpg" alt="Oficina de tecnologia com a comunidade" />
+        <img src="img/Apresentação dos projetos para a comunidade.jpeg" alt="Apresentação dos projetos para a comunidade" />
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container">
+      <h2>O que Fazemos</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Desenvolvimento Web</h3>
+          <p>Sites, landing pages e portfólios para ONGs, projetos sociais e profissionais da comunidade.</p>
+        </div>
+        <div class="card">
+          <h3>Visitas tecnicas</h3>
+          <p>Organização de cursos, mini-cursos e capacitações para mercado de trabalho.</p>
+        </div>
+        <div class="card">
+          <h3>Capacitação Digital</h3>
+          <p>Oficinas e treinamentos em tecnologia, redes sociais e ferramentas digitais.</p>
+        </div>
+        <div class="card">
+          <h3>Marketing Digital Solidário</h3>
+          <p>Criação de materiais gráficos, orientação em redes sociais e presença online.</p>
+        </div>
+        <div class="card">
+          <h3>Consultoria Tecnológica</h3>
+          <p>Diagnóstico e soluções digitais sob medida para organizações da comunidade.</p>
+        </div>
+        <div class="card">
+          <h3>Projetos Específicos</h3>
+          <p>Sites para eventos, sistemas de cadastro, campanhas de arrecadação e muito mais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contato"> 
+    <div class="container">
+      <form action="enviar.php" method="POST">
+          <label>Nome:</label><br />
+          <input type="text" placeholder="Seu Nome" name="nome" required /><br /><br />
+          
+          <label>Email:</label><br />
+          <input type="email" placeholder="Seu email" name="email" required /><br /><br />
+          
+          <label>Mensagem:</label><br />
+          <textarea name="mensagem" placeholder="Digite sua Mensagem..."rows="5" required></textarea><br /><br />
+          
+          <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </section>
+
+    <footer>
+    <div class="container">
+      <p>&copy; 2025 Conecta Comunidade. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
